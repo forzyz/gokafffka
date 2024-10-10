@@ -1,0 +1,35 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Binaries
+bin/
+
+# Vendor directory (if using Go modules)
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# Output of the go coverage tool
+coverage.out
+
+# Logs and temporary files
+*.log
+*.tmp
+*.out
+*.test
+
+# Environment variables
+.env
+
+# Go workspace-related files
+go.work
+go.work.sum
+
+kafka-data
